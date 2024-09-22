@@ -17,8 +17,23 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
 
+  const disposable3 = vscode.commands.registerCommand(
+    "tottiwashere.newPanel",
+    () => {
+      const panel = vscode.window.createWebviewPanel(
+        "tottiwashere",
+        "Totti was here",
+        vscode.ViewColumn.One,
+        {}
+      );
+
+      panel.webview.html = "<h1>Totti was here</h1>";
+    }
+  );
+
   context.subscriptions.push(disposable);
   context.subscriptions.push(disposable2);
+  context.subscriptions.push(disposable3);
 }
 
 export function deactivate() {}

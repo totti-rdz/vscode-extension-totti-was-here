@@ -20,6 +20,10 @@
       {
         "command": "tottiwashere.helloAgain",
         "title": "Hello Again"
+      },
+      {
+        "command": "tottiwashere.newPanel",
+        "title": "New Panel"
       }
     ]
   },
