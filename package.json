@@ -14,11 +14,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscodex-tottiwashere.helloWorld",
+        "command": "tottiwashere.helloWorld",
         "title": "Hello World"
       },
       {
-        "command": "vscodex-tottiwashere.helloAgain",
+        "command": "tottiwashere.helloAgain",
         "title": "Hello Again"
       }
     ]
