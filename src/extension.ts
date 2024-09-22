@@ -8,7 +8,12 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello World!');
 	});
 
+	const disposable2 = vscode.commands.registerCommand('vscodex-tottiwashere.helloAgain', () => {
+		vscode.window.showInformationMessage('Hello Again!');
+	});
+
 	context.subscriptions.push(disposable);
+	context.subscriptions.push(disposable2);
 }
 
 export function deactivate() {}

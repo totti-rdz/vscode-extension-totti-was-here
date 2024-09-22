@@ -16,6 +16,10 @@
       {
         "command": "vscodex-tottiwashere.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "vscodex-tottiwashere.helloAgain",
+        "title": "Hello Again"
       }
     ]
   },
